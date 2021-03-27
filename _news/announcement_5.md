@@ -23,6 +23,6 @@ My PhD topic is about Query-Focused Summarization, which is a very important and
  During my PhD, I received systematic training on how to approach a research problem, and dig into a given direction persistently from different perspectives, including tasks, datasets, models and algorithms.
 
  I favor a task-driven approach in my research -- not sure if there is a better term for this, but I call it a **bottom-up** approach: I always start from dataset/error analysis to gain a better understanding what the real bottleneck is, before playing with fancy model structures.
- This **bottleneck diagnosis** step is crucial to my research. It inspires me from the methodological perspective, and also sustains my motivation tiil the end of research, so that I am able to fix the problem with strong belief in the value of my work.
+ This **bottleneck diagnosis** step is crucial to my research. It inspires me from the methodological perspective, and also sustains my motivation tiil the end of my project, so that I am able to fix problems with a strong belief in the value of my work.
 
  I believe this is a good tactic not only to lots of academic problems; it is effective in solving more practical problems as well. Therefore, apart from keeping research outputs, I am also excited about building industrial NLP/ML applications, which, in turn, will guide me to produce higher-quality research that can be adopted in the real world with positive impact on a larger community.
