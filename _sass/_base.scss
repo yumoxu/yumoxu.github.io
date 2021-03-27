@@ -347,6 +347,51 @@ footer.sticky-bottom {
           border: 1px solid var(--global-theme-color);
         }
       }
+
+      .track {
+        height: 2rem;
+        margin-bottom: 0.5rem;
+
+        summarization {
+          display: inline-block;
+          background-color: rgb(219, 50, 54);
+          padding-left: 1rem;
+          padding-right: 1rem;
+          a {
+            color: white;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+
+        dial {
+          display: inline-block;
+          background-color: rgb(72, 133, 237);
+          padding-left: 1rem;
+          padding-right: 1rem;
+          a {
+            color: white;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+
+        general {
+          display: inline-block;
+          background-color: rgb(60, 186, 84);
+          padding-left: 2rem;
+          padding-right: 2rem;
+          a {
+            color: white;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
       .title {
         font-weight: bolder;
       }

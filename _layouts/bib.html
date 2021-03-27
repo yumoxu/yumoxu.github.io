@@ -2,13 +2,20 @@
 ---
 
 <div class="row">
-  <div class="col-sm-2 abbr">
-  {% if entry.abbr %}
-    {% if site.data.venues[entry.abbr] %}
-    <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
-    {% else %}
-    <abbr class="badge">{{entry.abbr}}</abbr>
+  <div class="col-sm-2 track">
+  {% if entry.track %}
+    {% if entry.track == "Summarization" %}
+    <summarization class="badge">{{entry.track}}</summarization>
     {% endif %}
+
+    {% if entry.track contains "Dialog" %}
+    <dial class="badge">{{entry.track}}</dial>
+    {% endif %}
+
+    {% if entry.track == "Others" %}
+    <general class="badge">{{entry.track}}</general>
+    {% endif %}
+
   {% endif %}
   </div>
 
@@ -101,6 +108,13 @@
       <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Supp</a>
       {% else %}
       <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Supp</a>
+      {% endif %}
+    {% endif %}
+    {% if entry.data %}
+      {% if entry.data contains '://' %}
+      <a href="{{ entry.data }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Data</a>
+      {% else %}
+      <a href="{{ entry.data | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Supp</a>
       {% endif %}
     {% endif %}
     {% if entry.blog %}

@@ -1,24 +1,19 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="http://web.inf.ed.ac.uk/ilcc">Institute for Language, Cognition and Computation</a> • <a href="https://www.ed.ac.uk/informatics"> School of Informatics</a> • <a href="https://www.ed.ac.uk">University of Edinburgh</a>
+# <em>Da weiß ich die Stürme schon und bin erregt wie das Meer.</em> -- <em>Vorgefühl</em>, Rainer Maria Rilke
+# <a href="http://edinburghnlp.inf.ed.ac.uk/"></a>. 
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome! I am a final-year PhD student in Natural Language Processing (NLP) at the University of Edinburgh. I am affiliated with [the Institute for Language, Cognition and Computation (ILCC)](http://web.inf.ed.ac.uk/ilcc) and also a member of [EdinburghNLP](http://edinburghnlp.inf.ed.ac.uk/). I am fortunate to be advised by [Prof. Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/) (principle) and [Dr. Shay Cohen](http://homepages.inf.ed.ac.uk/scohen/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am interested in both deep neural networks and probabilistic models for NLP tasks, especially **text summarization** and **dialogue systems**. My long-term research goal is to evolve the machine to interact with people naturally and assist people effectively, with only a small amount of data. 

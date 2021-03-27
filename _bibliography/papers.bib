@@ -1,70 +1,124 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@article{Xu2020AbstractiveQF,
+  title={Abstractive Query Focused Summarization with Query-Free Resources},
+  author={Yumo Xu and Mirella Lapata},
+  journal={ArXiv},
+  year={2020},
+  volume={abs/2012.14774},
+  abstract="The availability of large-scale datasets has driven the development of neural sequence-to-sequence models to generate generic summaries, i.e., summaries which do not correspond to any pre-specified queries. However, due to the lack of training data, query focused summarization (QFS) has been studied mainly with extractive methods. In this work, we consider the problem of leveraging only generic summarization resources to build an abstractive QFS system. We propose Marge, a Masked ROUGE Regression framework composed of a novel unified representation for summaries and queries, and a distantly supervised training task for answer evidence estimation. To further utilize generic data for generation, three attributes are incorporated during training and inference to control the shape of the final summary: evidence rank, query guidance, and summary length. Despite learning from minimal supervision, our system achieves state-of-the-art results in the distantly supervised setting across domains and query types.",
+  pdf = "https://arxiv.org/pdf/2012.14774.pdf",
+  selected={true},
+  track={Summarization},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+
+@article{Xu2020MetaDP,
+  title={Meta Dialogue Policy Learning},
+  author={Yumo Xu and Chenguang Zhu and Baolin Peng and Michael Zeng},
+  journal={ArXiv},
+  year={2020},
+  volume={abs/2006.02588},
+  abstract = "Dialog policy determines the next-step actions for agents and hence is central to a dialogue system. However, when migrated to novel domains with little data, a policy model can fail to adapt due to insufficient interactions with the new environment. We propose Deep Transferable Q-Network (DTQN) to utilize shareable low-level signals between domains, such as dialogue acts and slots. We decompose the state and action representation space into feature subspaces corresponding to these low-level components to facilitate cross-domain knowledge transfer. Furthermore, we embed DTQN in a meta-learning framework and introduce Meta-DTQN with a dual-replay mechanism to enable effective off-policy training and adaptation. In experiments, our model outperforms baseline models in terms of both success rate and dialogue efficiency on the multi-domain dialogue dataset MultiWOZ 2.0.",
+  pdf = "https://arxiv.org/pdf/2006.02588.pdf",
+  selected={true},
+  track={Dialogue - DPL},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+
+@inproceedings{xu-lapata-2020-coarse,
+    title = "Coarse-to-Fine Query Focused Multi-Document Summarization",
+    author = "Xu, Yumo  and
+      Lapata, Mirella",
+    booktitle = "EMNLP",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.emnlp-main.296",
+    doi = "10.18653/v1/2020.emnlp-main.296",
+    pages = "3632--3645",
+    abstract = "We consider the problem of better modeling query-cluster interactions to facilitate query focused multi-document summarization. Due to the lack of training data, existing work relies heavily on retrieval-style methods for assembling query relevant summaries. We propose a coarse-to-fine modeling framework which employs progressively more accurate modules for estimating whether text segments are relevant, likely to contain an answer, and central. The modules can be independently developed and leverage training data if available. We present an instantiation of this framework with a trained evidence estimator which relies on distant supervision from question answering (where various resources exist) to identify segments which are likely to answer the query and should be included in the summary. Our framework is robust across domains and query types (i.e., long vs short) and outperforms strong comparison systems on benchmark datasets.",
+    pdf = "https://www.aclweb.org/anthology/2020.emnlp-main.296.pdf",
+    code = "https://github.com/yumoxu/querysum",
+    selected={true},
+    track={Summarization},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{xu-lapata-2019-weakly,
+    title = "Weakly Supervised Domain Detection",
+    author = "Xu, Yumo  and
+      Lapata, Mirella",
+    journal = "TACL",
+    volume = "7",
+    month = mar,
+    year = "2019",
+    url = "https://www.aclweb.org/anthology/Q19-1037",
+    doi = "10.1162/tacl_a_00287",
+    pages = "581--596",
+    abstract = "In this paper we introduce domain detection as a new natural language processing task. We argue that the ability to detect textual segments that are domain-heavy (i.e., sentences or phrases that are representative of and provide evidence for a given domain) could enhance the robustness and portability of various text classification applications. We propose an encoder-detector framework for domain detection and bootstrap classifiers with multiple instance learning. The model is hierarchically organized and suited to multilabel classification. We demonstrate that despite learning with minimal supervision, our model can be applied to text spans of different granularities, languages, and genres. We also showcase the potential of domain detection for text summarization.",
+    pdf = "https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00287",
+    data = "https://drive.google.com/drive/u/1/folders/1K5TdwoezGzzb19_2QjTuNipOX9kf1tUY?usp=sharing",
+    code =  "https://github.com/yumoxu/detnet",
+    track={Summarization},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{sherborne-etal-2020-bootstrapping,
+    title = "Bootstrapping a Crosslingual Semantic Parser",
+    author = "Sherborne, Tom  and
+      Xu, Yumo  and
+      Lapata, Mirella",
+    booktitle = "Findings of EMNLP",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.findings-emnlp.45",
+    doi = "10.18653/v1/2020.findings-emnlp.45",
+    pages = "499--517",
+    abstract = "Recent progress in semantic parsing scarcely considers languages other than English but professional translation can be prohibitively expensive. We adapt a semantic parser trained on a single language, such as English, to new languages and multiple domains with minimal annotation. We query if machine translation is an adequate substitute for training data, and extend this to investigate bootstrapping using joint training with English, paraphrasing, and multilingual pre-trained models. We develop a Transformer-based parser combining paraphrases by ensembling attention over multiple encoders and present new versions of ATIS and Overnight in German and Chinese for evaluation. Experimental results indicate that MT can approximate training data in a new language for accurate parsing when augmented with paraphrasing through multiple MT engines. Considering when MT is inadequate, we also find that using our approach achieves parsing accuracy within 2{\%} of complete translation using only 50{\%} of training data.",
+    pdf = "https://arxiv.org/pdf/2004.02585.pdf",
+    code = "https://github.com/tomsherborne/bootstrap",
+    track={Dialogue - SLU},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{Zhang2019TrainableDS,
+  title={Trainable Dynamic Subsampling for End-to-End Speech Recognition},
+  author={S. Zhang and Erfan Loweimi and Yumo Xu and P. Bell and S. Renals},
+  booktitle={Interspeech},
+  year={2019},
+  abstract="Jointly optimised attention-based encoder-decoder models have yielded impressive speech recognition results. The recurrent neural network (RNN) encoder is a key component in such models – it learns the hidden representations of the inputs. However, it is difficult for RNNs to model the long sequences characteristic of speech recognition. To address this,
+            subsampling between stacked recurrent layers of the encoder is
+            commonly employed. This method reduces the length of the
+            input sequence and leads to gains in accuracy. However, static
+            subsampling may both include redundant information and miss
+            relevant information.
+            We propose using a dynamic subsampling RNN (dsRNN) encoder. Unlike a statically subsampled RNN encoder, the dsRNN encoder can learn to skip redundant frames. Furthermore, the skip ratio may vary at different stages of training,
+            thus allowing the encoder to learn the most relevant information for each epoch. Although the dsRNN is unidirectional, it
+            yields lower phone error rates (PERs) than a bidirectional RNN
+            on TIMIT. The dsRNN encoder has a 16.8% PER on the TIMIT
+            test set, a considerable improvement over static subsampling
+            methods used with unidirectional and bidirectional RNN encoders (23.5% and 20.4% PER respectively).",
+  pdf = "https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2778.pdf",
+  code = "https://github.com/qishuxiyou/dsRNN",
+  track={Dialogue - SLU},
+}
+
+@inproceedings{xu-cohen-2018-stock,
+    title = "Stock Movement Prediction from Tweets and Historical Prices",
+    author = "Xu, Yumo  and
+      Cohen, Shay B.",
+    booktitle = "ACL",
+    month = jul,
+    year = "2018",
+    address = "Melbourne, Australia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/P18-1183",
+    doi = "10.18653/v1/P18-1183",
+    pages = "1970--1979",
+    abstract = "Stock movement prediction is a challenging problem: the market is highly stochastic, and we make temporally-dependent predictions from chaotic data. We treat these three complexities and present a novel deep generative model jointly exploiting text and price signals for this task. Unlike the case with discriminative or topic modeling, our model introduces recurrent, continuous latent variables for a better treatment of stochasticity, and uses neural variational inference to address the intractable posterior inference. We also provide a hybrid objective with temporal auxiliary to flexibly capture predictive dependencies. We demonstrate the state-of-the-art performance of our proposed model on a new stock movement prediction dataset which we collected.",
+    pdf = "http://aclweb.org/anthology/P18-1183",
+    data = "https://github.com/yumoxu/stocknet-dataset",
+    track={Others},
 }
