@@ -2,7 +2,8 @@
 layout: about
 title: About
 permalink: /
-description: <a href="http://web.inf.ed.ac.uk/ilcc">Institute for Language, Cognition and Computation</a> • <a href="https://www.ed.ac.uk/informatics"> School of Informatics</a> • <a href="https://www.ed.ac.uk">University of Edinburgh</a>
+description: 
+# <a href="http://web.inf.ed.ac.uk/ilcc">Institute for Language, Cognition and Computation</a> • <a href="https://www.ed.ac.uk/informatics"> School of Informatics</a> • <a href="https://www.ed.ac.uk">University of Edinburgh</a>
 # <em>Da weiß ich die Stürme schon und bin erregt wie das Meer.</em> -- <em>Vorgefühl</em>, Rainer Maria Rilke
 # <a href="http://edinburghnlp.inf.ed.ac.uk/"></a>. 
 
