@@ -1,6 +1,5 @@
 ---
 layout: post
-title: I will be on the job market in late 2021!
 date: 2020-12-29 15:59:00-0400
 inline: true
 ---
