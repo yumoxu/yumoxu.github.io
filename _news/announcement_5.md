@@ -7,7 +7,7 @@ inline: false
 
  I am wrapping up my PhD (on the last project!) and will be on the job market in late 2021. 
 
- I am mainly interested in <span style="color:blue">**research scientist/engineer**</span> roles in NLP, preferably in <span style="color:blue">**US, UK or Switzerland**</span>. I am also open to <span style="color:blue">**postdoctoral positions**</span> if the research scope fits my research interests.
+ I am mainly interested in <span style="color:red">**research scientist/engineer**</span> roles in NLP, preferably in <span style="color:red">**US, UK or Switzerland**</span>. I am also open to <span style="color:red">**postdoctoral positions**</span> if the research scope fits my research interests.
 
  If you think I could be a good fit for your position, feel free to [give me an email](mailto:yumo.xu@ed.ac.uk)!
 
