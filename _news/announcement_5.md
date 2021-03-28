@@ -7,16 +7,21 @@ inline: false
 
  I am wrapping up my PhD (on the last project!) and will be on the job market in late 2021. 
 
+ My PhD topic is **query focused summarization**, a very important and promising direction in text summarization. 
+Broadly, I hold a passion for **providing human with intelligent ways to access information**, through NLP techniques such as **summarization**, **dialogue systems**, **IR** and **QA**.
+
  I am mainly interested in <span style="color:red">**research scientist/engineer**</span> roles in NLP, preferably in <span style="color:red">**US, UK or Switzerland**</span>. I am also open to <span style="color:red">**postdoctoral positions**</span> if the research scope fits my research interests.
 
  If you think I could be a good fit for your position, feel free to [give me an email](mailto:yumo.xu@ed.ac.uk)!
 
- <!-- Please keep reading this post should you be interested in knowing more about my research. -->
+<!-- Please keep reading this post should you be interested in knowing more about my research. 
 
 #### About my research interests
 
 My PhD topic is **query focused summarization**, a very important and promising direction in text summarization. 
 Broadly, I hold a passion for **providing human with intelligent ways to access information**, through NLP techniques such as **summarization**, **dialogue systems**, **IR** and **QA**.
+-->
+
 <!-- Due to the limited amount of time I have during PhD study, I am not able to dive into every one of them. Nevertheless, I do constantly check recent progress in these areas, and maintain reading lists/notes for them.  -->
 
 <!--
