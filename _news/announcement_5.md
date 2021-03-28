@@ -4,12 +4,12 @@ title: I will be on the job market in late 2021! Click me for more details.
 date: 2021-03-21 15:59:00-0400
 inline: false
 ---
-<br><br>
+<br>
 
  I am wrapping up my PhD (on the last project!) and will be on the job market in late 2021. I am mainly interested in <span style="color:red">**research scientist/engineer**</span> roles in NLP, preferably in <span style="color:red">**US, UK or Switzerland**</span>. I am also open to <span style="color:red">**postdoctoral positions**</span> if the research scope fits my research interests.
 
- My PhD topic is *query focused summarization*, a very important and promising direction in text summarization. 
-Broadly, I hold a passion for *assisting people with intelligent ways to access information*, through NLP techniques such as *text summarization*, *dialogue systems*, *question answering* and *information retrieval*.
+ My PhD topic is <u>query focused summarization</u>, a very important and promising direction in text summarization. 
+Broadly, I hold a passion for *assisting people with intelligent ways to access information*, through NLP techniques such as <u>text summarization</u>, <u>dialogue systems</u>, <u>question answering</u> and <u>information retrieval</u>.
  
  If you think I could be a good fit for your position, feel free to [give me an email](mailto:yumo.xu@ed.ac.uk)!
 
