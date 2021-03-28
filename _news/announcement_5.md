@@ -16,7 +16,7 @@ inline: false
 #### About my research interests
 
 My PhD topic is **query focused summarization**, a very important and promising direction in text summarization. 
-Broadly, I hold a passion for **providing intelligent ways to access information**, through NLP techniques such as **summarization**, **dialogue systems**, **IR** and **QA**.
+Broadly, I hold a passion for **providing human with intelligent ways to access information**, through NLP techniques such as **summarization**, **dialogue systems**, **IR** and **QA**.
 <!-- Due to the limited amount of time I have during PhD study, I am not able to dive into every one of them. Nevertheless, I do constantly check recent progress in these areas, and maintain reading lists/notes for them.  -->
 
 <!--
