@@ -11,13 +11,15 @@ inline: false
 
  If you think I could be a good fit for your position, feel free to [give me an email](mailto:yumo.xu@ed.ac.uk)!
 
- Please keep reading this post should you be interested in knowing more about my research.
+ <!-- Please keep reading this post should you be interested in knowing more about my research. -->
 
 #### About my research interests
 
-My PhD topic is about **Query Focused Summarization**, which is a very important and promising direction in text summarization. Broadly, I hold a passion for a range of NLP tasks including summarization, dialogue systems, IR and QA, partially because they all focus on **providing intelligent ways to access information**.
+My PhD topic is about **Query Focused Summarization**, a very important and promising direction in text summarization. 
+Broadly, I hold a passion for utilizing NLP to provide intelligent ways to access information, and, therefore, interested in a range of NLP tasks including summarization, dialogue systems, IR and QA.
 <!-- Due to the limited amount of time I have during PhD study, I am not able to dive into every one of them. Nevertheless, I do constantly check recent progress in these areas, and maintain reading lists/notes for them.  -->
 
+<!--
 #### About my research methodology
 
  During my PhD, I received systematic training on how to approach a research problem, and dig into a given direction persistently from different perspectives, including tasks, datasets, models and algorithms.
@@ -26,3 +28,4 @@ My PhD topic is about **Query Focused Summarization**, which is a very important
  This **bottleneck diagnosis** step is crucial to my research. It inspires me from the methodological perspective, and also sustains my motivation tiil the end of my project, so that I am able to fix problems with a strong belief in the value of my work.
 
  I believe this is a good tactic not only to lots of academic problems; it is effective in solving more practical problems as well. Therefore, apart from keeping research outputs, I am also excited about building industrial NLP/ML applications, which, in turn, will guide me to produce higher-quality research that can be adopted in the real world with positive impact on a larger community.
+->
