@@ -9,7 +9,7 @@ inline: false
  I am wrapping up my PhD (on the last project!) and will be on the job market in late 2021. I am mainly interested in <span style="color:red">**research scientist/engineer**</span> roles in NLP, preferably in <span style="color:red">**US, UK or Switzerland**</span>. I am also open to <span style="color:red">**postdoctoral positions**</span> if the research scope fits my research interests.
 
  My PhD topic is *query focused summarization*, a very important and promising direction in text summarization. 
-Broadly, I hold a passion for *providing human with intelligent ways to access information*, through NLP techniques such as *text summarization*, *dialogue systems*, *question answering* and *information retrieval*.
+Broadly, I hold a passion for *assisting people with intelligent ways to access information*, through NLP techniques such as *text summarization*, *dialogue systems*, *question answering* and *information retrieval*.
  
  If you think I could be a good fit for your position, feel free to [give me an email](mailto:yumo.xu@ed.ac.uk)!
 
