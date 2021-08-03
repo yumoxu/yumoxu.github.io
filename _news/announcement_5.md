@@ -8,8 +8,9 @@ inline: false
 
  I am wrapping up my PhD (on the last project!) and will be on the job market in late 2021. I am mainly interested in <span style="color:red">**research scientist/engineer**</span> roles in NLP, preferably in <span style="color:red">**US (Seattle), UK (London/Cambridge) or Switzerland (Zurich)**</span>. I am also open to <span style="color:red">**postdoctoral positions**</span> if the research scope fits my research interests.
 
- My PhD topic is <u>query focused summarization</u>, a very important and promising direction in text summarization that cares about user intentions [[1](https://arxiv.org/pdf/2012.14774.pdf), [2](https://www.aclweb.org/anthology/2020.emnlp-main.296.pdf), [3](https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00287)]. 
-Broadly, I hold a passion for *assisting people with intelligent ways to access information*, through NLP techniques such as <u>text summarization</u>, <u>dialogue systems</u> and <u>question answering</u>.
+ My PhD topic is <u>query focused summarization</u>, a promising direction in text summarization that particularly cares about user intentions. Some of my work take tools from machine learning, such as [multi-instance learning](https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00287)] and [latent variable models](https://arxiv.org/pdf/2106.00104.pdf), while others are inspired from related NLP tasks, including [question answering](https://www.aclweb.org/anthology/2020.emnlp-main.296.pdf) and [generic summarization](https://arxiv.org/pdf/2012.14774.pdf), 
+ 
+ Broadly, I hold a passion for *assisting people with intelligent ways to access information*, through NLP techniques such as <u>text summarization</u>, <u>dialogue systems</u> and <u>question answering</u>.
  
  If you think I could be a good fit for your position, feel free to [give me an email](mailto:yumo.xu@ed.ac.uk)!
 
