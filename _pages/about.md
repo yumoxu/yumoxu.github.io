@@ -19,4 +19,4 @@ Welcome! I am a final-year PhD candidate in Natural Language Processing (NLP) at
 
 I am interested in both deep learning and probabilistic models for NLP tasks. 
 My PhD topic is **text summarization** and I am also a fan of **dialogue systems**. 
-My long-term research goal is to evolve the machine to interact with people naturally and assist people effectively, with only a small amount of data. [[I am on the job market!]](https://yumoxu.github.io/news/announcement_5/)
+My long-term research goal is to evolve the machine to interact with people naturally and assist people effectively, with only a small amount of data. [[**I am on the job market!**]](https://yumoxu.github.io/news/announcement_5/)
