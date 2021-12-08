@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-07-30 08:11:00-0400
+date: 2021-12 08:11:00-0400
 inline: true
 ---
 
-Gave an invited talk on Text Summarization with Query Modeling at [Samsung AI Center](https://research.samsung.com/aicenter_toronto).
+Gave talks on Document Summarization with Neural Query Modeling at Amazon Alexa, Adobe Document Intelligence Lab and TikTok SAMI.
