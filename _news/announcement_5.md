@@ -1,12 +1,12 @@
 ---
 layout: post
-title: I will be on the job market in late 2021! Click me for more details.
+title: I will be on the job market in late 2021!
 date: 2021-03-21 15:59:00-0400
 inline: false
 ---
 <br>
 
- I am wrapping up my PhD (on the last project!) and will be on the job market in late 2021. I am mainly interested in <span style="color:red">**research scientist/engineer**</span> roles in NLP, preferably in <span style="color:red">**US (Seattle), UK (London/Cambridge) or Switzerland (Zurich)**</span>. I am also open to <span style="color:red">**postdoctoral positions**</span> if the research scope fits my research interests.
+ I am wrapping up my PhD (on the last project!) and will be on the job market in late 2021. I am mainly interested in <span style="color:red">**research scientist**</span> roles in NLP, preferably in <span style="color:red">**US (Seattle), UK (London/Cambridge) or Switzerland (Zurich)**</span>. I am also open to <span style="color:red">**postdoctoral positions**</span> if the research scope fits my research interests.
 
  My PhD topic is **query focused summarization**, a promising direction in text summarization that particularly cares about user intentions. Some of my work are driven by machine learning methods, such as [multi-instance learning](https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00287) and [latent variable models](https://arxiv.org/pdf/2106.00104.pdf), while others take more inspirations from related NLP tasks, including [question answering](https://www.aclweb.org/anthology/2020.emnlp-main.296.pdf) and [generic summarization](https://arxiv.org/pdf/2012.14774.pdf).
  
