@@ -19,4 +19,4 @@ Welcome! I am a final-year PhD candidate in Natural Language Processing (NLP) at
 
 I am interested in both deep learning and probabilistic models for NLP tasks. 
 My PhD topic is [document summarization](https://en.wikipedia.org/wiki/Automatic_summarization) and I am also a fan of [dialogue systems](https://en.wikipedia.org/wiki/Dialogue_system). 
-My long-term research goal is to evolve the machine to interact with people naturally and assist people effectively, with only little, weak, or distant human guidance.
+My long-term research goal is to evolve the machine to interact with people naturally and assist people effectively, with minimal human guidance.
