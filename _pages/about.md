@@ -19,8 +19,8 @@ Welcome! I am a Research Associate in Natural Language Processing at the Univers
 I recently finished my PhD at the University of Edinburgh under the supervison of [Prof. Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/).
 My thesis on Document Summarization with Neural Query Modeling was examined by [Dr. Ivan Titov](http://ivan-titov.org/) and [Dr. Greg Durrett](https://www.cs.utexas.edu/~gdurrett/).
 
-I am interested in both deep learning and probabilistic models for NLP, 
-specially [document summarization](https://en.wikipedia.org/wiki/Automatic_summarization),
+I am interested in both neural networks and probabilistic models for NLP, 
+specially [text summarization](https://en.wikipedia.org/wiki/Automatic_summarization),
 [question anwering](https://en.wikipedia.org/wiki/Question_answering),
-and [dialogue systems](https://en.wikipedia.org/wiki/Dialogue_system). 
+and [dialog systems](https://en.wikipedia.org/wiki/Dialogue_system). 
 My long-term research goal is to evolve the machine to interact with people naturally and assist people effectively, with minimal human guidance.
