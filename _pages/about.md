@@ -15,8 +15,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Welcome! I am a final-year PhD candidate in Natural Language Processing (NLP) at the University of Edinburgh, affiliated with [the Institute for Language, Cognition and Computation (ILCC)](http://web.inf.ed.ac.uk/ilcc) and [EdinburghNLP](http://edinburghnlp.inf.ed.ac.uk/). I am fortunate to be advised by [Prof. Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/).
+Welcome! I am a Research Associate in Natural Language Processing at the University of Edinburgh, affiliated with [the Institute for Language, Cognition and Computation (ILCC)](http://web.inf.ed.ac.uk/ilcc) and [EdinburghNLP](http://edinburghnlp.inf.ed.ac.uk/). 
+I recently finished my PhD at ILCC under the supervison of [Prof. Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/), with my thesis on Document Summarization with Neural Query Modeling (examiners: [Ivan Titov](http://ivan-titov.org/) and [Greg Durrett](https://www.cs.utexas.edu/~gdurrett/)).
 
-I am interested in both deep learning and probabilistic models for NLP tasks. 
-My PhD topic is [document summarization](https://en.wikipedia.org/wiki/Automatic_summarization) and I am also a fan of [dialogue systems](https://en.wikipedia.org/wiki/Dialogue_system). 
+I am interested in both deep learning and probabilistic models for NLP tasks, specially 
+[document summarization](https://en.wikipedia.org/wiki/Automatic_summarization),
+[question anwering](https://en.wikipedia.org/wiki/Question_answering),
+and [dialogue systems](https://en.wikipedia.org/wiki/Dialogue_system). 
 My long-term research goal is to evolve the machine to interact with people naturally and assist people effectively, with minimal human guidance.
