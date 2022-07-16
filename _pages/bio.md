@@ -13,7 +13,7 @@ nav: true
 ### Education
 
 <br/>
-Ph.D. Candidate, School of Informatics, The University of Edinburgh, 2018 - 2022
+Ph.D., School of Informatics, The University of Edinburgh, 2018 - 2022
 
 M.S. (with Distinction), School of Informatics, The University of Edinburgh, 2017  
 
@@ -25,10 +25,12 @@ Visiting Student, INSEAD, 2014
 
 ------
 
-### Industrial Experience
+### Professional Experience
 
 <br/>
-Research Internship, Microsoft Speech and Dialog Research, 2020
+Research Associate, The University of Edinburgh, 2022
+
+Research Internship, Microsoft Research, 2020
 
 Visiting Student, Google AI, 2019
 
@@ -45,11 +47,11 @@ Software Engineer Internship, Wecash, 2014
 ### Academic Service
 
 <br/>
-Conference PC Member: IJCAI 21-22, ACL SRW 20, AACL SRW 20
+Conference PC Member: COLING 22, IJCAI 21-22, ACL SRW 20, AACL SRW 20
 
-Conference Reviewer: ACL 20-21, NAACL 21, AAAI 20, EMNLP 19
+Conference Reviewer: ARR 21-22, ACL 20-21, NAACL 21, AAAI 20, EMNLP 19
 
-Journal Reviewer: Neural Networks, Royal Society Open Science
+Journal Reviewer: TASLP, Neural Networks, Neurocomputing, RSOS
 
 ------
 
