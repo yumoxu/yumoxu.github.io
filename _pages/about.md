@@ -15,9 +15,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Welcome! I am a Research Associate in Natural Language Processing at the University of Edinburgh, affiliated with [the Institute for Language, Cognition and Computation (ILCC)](http://web.inf.ed.ac.uk/ilcc) and [EdinburghNLP](http://edinburghnlp.inf.ed.ac.uk/). 
-I recently finished my PhD at the University of Edinburgh under the supervison of [Prof. Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/).
-My thesis on Document Summarization with Neural Query Modeling was examined by [Dr. Ivan Titov](http://ivan-titov.org/) and [Dr. Greg Durrett](https://www.cs.utexas.edu/~gdurrett/).
+Welcome! I am a Research Associate in Natural Language Processing at [ILCC](http://web.inf.ed.ac.uk/ilcc), the University of Edinburgh. 
+I am fortunate to work closely with [Prof. Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/) who was also my PhD advisor.
+My PhD research focuses on the role of observable/latent user queries in document summarization, and my thesis was examined by [Dr. Ivan Titov](http://ivan-titov.org/) and [Dr. Greg Durrett](https://www.cs.utexas.edu/~gdurrett/).
 
 I am interested in both neural networks and probabilistic models for NLP, 
 specially [text summarization](https://en.wikipedia.org/wiki/Automatic_summarization),
