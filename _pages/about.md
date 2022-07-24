@@ -16,7 +16,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 Welcome! I am a Research Associate in Natural Language Processing at the University of Edinburgh. 
-I am fortunate to work closely with [Prof. Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/) who advised my PhD. 
+I am fortunate to work closely with [Prof. Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/) who was also my PhD advisor. 
 I recently finished my PhD with a thesis on the role of observable/latent user queries in document summarization, 
 examined by [Dr. Ivan Titov](http://ivan-titov.org/) and [Dr. Greg Durrett](https://www.cs.utexas.edu/~gdurrett/).
 
