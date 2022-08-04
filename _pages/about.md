@@ -21,7 +21,7 @@ I recently finished my PhD with a thesis on the role of observable/latent user q
 examined by [Dr. Ivan Titov](http://ivan-titov.org/) and [Dr. Greg Durrett](https://www.cs.utexas.edu/~gdurrett/).
 
 I am interested in both neural networks and probabilistic models for NLP, 
-specially [text summarization](https://en.wikipedia.org/wiki/Automatic_summarization),
-[question anwering](https://en.wikipedia.org/wiki/Question_answering),
+especially [text summarization](https://en.wikipedia.org/wiki/Automatic_summarization),
+[question answering](https://en.wikipedia.org/wiki/Question_answering),
 and [dialog systems](https://en.wikipedia.org/wiki/Dialogue_system). 
 My long-term research goal is to evolve the machine to interact with people naturally and assist people effectively, with minimal human guidance.
