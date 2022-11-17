@@ -20,6 +20,7 @@ I am fortunate to work closely with [Prof. Mirella Lapata](http://homepages.inf.
 I recently finished my PhD with a thesis entitled Document Summarization with Neural Query Modeling, 
 examined by [Prof. Ivan Titov](http://ivan-titov.org/) and [Prof. Greg Durrett](https://www.cs.utexas.edu/~gdurrett/).
 <!-- on the role of observable/latent user queries in document summarization -->
+
 I am interested in both neural networks and probabilistic models for NLP, 
 especially text summarization and language generation. 
 My long-term research goal is to evolve the machine to interact with people naturally and assist people effectively, 
