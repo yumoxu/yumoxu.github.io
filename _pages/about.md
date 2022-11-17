@@ -18,10 +18,9 @@ social: false  # includes social icons at the bottom of the page
 Welcome! I am a Research Associate in Natural Language Processing at the University of Edinburgh. 
 I am fortunate to work closely with [Prof. Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/) who was also my PhD advisor. 
 I recently finished my PhD with a thesis on the role of observable/latent user queries in document summarization, 
-examined by [Dr. Ivan Titov](http://ivan-titov.org/) and [Dr. Greg Durrett](https://www.cs.utexas.edu/~gdurrett/).
+examined by [Prof. Ivan Titov](http://ivan-titov.org/) and [Prof. Greg Durrett](https://www.cs.utexas.edu/~gdurrett/).
 
 I am interested in both neural networks and probabilistic models for NLP, 
-especially [text summarization](https://en.wikipedia.org/wiki/Automatic_summarization),
-[question answering](https://en.wikipedia.org/wiki/Question_answering),
-and [dialog systems](https://en.wikipedia.org/wiki/Dialogue_system). 
-My long-term research goal is to evolve the machine to interact with people naturally and assist people effectively, with minimal human guidance.
+especially text summarization and language generation. 
+My long-term research goal is to evolve the machine to interact with people naturally and assist people effectively, 
+with minimal human guidance.
