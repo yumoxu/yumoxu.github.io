@@ -2,7 +2,7 @@
 layout: page
 permalink: /bio/
 title: Bio
-description: The things that made me, me
+description:
 nav: true
 ---
 
