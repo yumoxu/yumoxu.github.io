@@ -22,5 +22,5 @@ My long-term research goal is to evolve the machine to interact with people natu
 with minimal human guidance.
 
 I am fortunate to work closely with [Prof. Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/) who was also my PhD advisor. 
-I recently finished my PhD with a thesis entitled Document Summarization with Neural Query Modeling, 
+I finished my PhD with a thesis entitled [Document Summarization with Neural Query Modeling](https://era.ed.ac.uk/handle/1842/39624), 
 examined by [Prof. Ivan Titov](http://ivan-titov.org/) and [Prof. Greg Durrett](https://www.cs.utexas.edu/~gdurrett/).
