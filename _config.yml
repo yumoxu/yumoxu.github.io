@@ -72,7 +72,7 @@ permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: false
+  enabled: true
 
 # Comments
 disqus_shortname: nlp-research # put your disqus shortname
