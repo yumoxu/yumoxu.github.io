@@ -16,7 +16,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 I am a Research Associate in Natural Language Processing at the University of Edinburgh. 
-My research interests include text summarization and language generation with deep neural networks or probabilistic models. 
+My research interests include text summarization and language generation with machine learning models. 
 <!-- My long-term research goal is to evolve the machine to interact with people naturally and assist people effectively, 
 with minimal human guidance. -->
 
