@@ -15,12 +15,14 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Welcome! I am a Research Associate in Natural Language Processing (NLP) at the University of Edinburgh. 
+I am a Research Associate in Natural Language Processing at the University of Edinburgh. 
 I am interested in both deep neural networks and probabilistic models for NLP, 
 especially text summarization and language generation. 
-My long-term research goal is to evolve the machine to interact with people naturally and assist people effectively, 
-with minimal human guidance.
+<!-- My long-term research goal is to evolve the machine to interact with people naturally and assist people effectively, 
+with minimal human guidance. -->
 
 I am fortunate to work closely with [Prof. Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/) who was also my PhD advisor. 
 I finished my PhD with a thesis entitled [Document Summarization with Neural Query Modeling](https://era.ed.ac.uk/handle/1842/39624), 
 examined by [Prof. Ivan Titov](http://ivan-titov.org/) and [Prof. Greg Durrett](https://www.cs.utexas.edu/~gdurrett/).
+
+You can reach out to me via email: yumo.xu [at] ed.ac.uk
