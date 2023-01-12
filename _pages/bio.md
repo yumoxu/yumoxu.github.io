@@ -3,7 +3,7 @@ layout: page
 permalink: /bio/
 title: Bio
 description:
-nav: true
+nav: false
 ---
 
 <!-- Download [PDF version](https://drive.google.com/file/d/1CwVFSn_jNCSWmRpYXiD8tNOvkww-M_mv/view?usp=sharing). -->

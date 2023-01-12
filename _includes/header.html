@@ -23,25 +23,14 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- About -->
-          <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
+          <!-- <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
               About
               {% if page.title == "about" %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
-          </li>
-          {% if site.blog_name %}
-          <!-- Blog -->
-          <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/blog/' | relative_url }}">
-              Blog
-              {% if page.title == "blog" %}
-              <span class="sr-only">(current)</span>
-              {% endif %}
-            </a>
-          </li>
-          {% endif %}
+          </li> -->
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: "title" %}
           {% for p in sorted_pages %}
@@ -57,12 +46,24 @@
           {% endif %}
           {% endfor %}
 
+          {% if site.blog_name %}
+          <!-- Blog -->
+          <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/blog/' | relative_url }}">
+              Blog
+              {% if page.title == "blog" %}
+              <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
+          {% endif %}
+
           <!-- Vitae -->
-          <li class="nav-item active">
+          <!-- <li class="nav-item active">
             <a class="nav-link" href="https://yumoxu.github.io">
               Vitae
             </a>
-          </li>
+          </li> -->
 
           {% if site.enable_darkmode %}
             <div class = "toggle-container">
