@@ -15,7 +15,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a Research Associate at the University of Edinburgh working on text summarization and language generation. 
+I am a Research Associate in Natural Language Processing at the University of Edinburgh. 
+My research interests include text summarization, question answering, and language generation. 
 <!-- My long-term research goal is to evolve the machine to interact with people naturally and assist people effectively, 
 with minimal human guidance. -->
 
