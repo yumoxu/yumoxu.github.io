@@ -1,7 +1,6 @@
 ---
 layout: post
-date: 2023-01-10 15:11:00-0400
+date: 2022-09-27 15:11:00-0400
 inline: true
 ---
-
-Will be joining [AWS AI Labs](https://aws.amazon.com/ai/), Seattle as a Scientist in March.
+Extractive labels for summarization are fundamentally flawed. Give [oreo](https://arxiv.org/pdf/2209.12714.pdf) a try!
