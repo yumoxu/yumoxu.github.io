@@ -87,11 +87,17 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
+  talk:
+    defaults:
+      layout: post
+    output: true
+    permalink: /talk/:path/
   projects:
     output: true
     permalink: /projects/:path/
 
-news_limit: 5
+news_limit: 3
+talk_limit: 10
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

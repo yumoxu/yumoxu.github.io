@@ -35,6 +35,11 @@ layout: default
       {% include news.html %}
     {% endif %}
 
+    {% if page.talk %}
+      <br>
+      {% include talk.html %}
+    {% endif %}
+
     {% if page.selected_papers %}
       {% include selected_papers.html %}
     {% endif %}
