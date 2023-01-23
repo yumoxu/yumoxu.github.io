@@ -25,6 +25,6 @@ with minimal human guidance. -->
 <!-- with a thesis entitled [Document Summarization with Neural Query Modeling](https://era.ed.ac.uk/handle/1842/39624) -->
 I received my PhD degree at the University of Edinburgh in 2022, advised by [Prof. Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/). 
 My PhD thesis [Document Summarization with Neural Query Modeling](https://era.ed.ac.uk/handle/1842/39624) was examined by [Prof. Ivan Titov](http://ivan-titov.org/) and [Prof. Greg Durrett](https://www.cs.utexas.edu/~gdurrett/).
-
+<!-- You can find my resume [here](https://drive.google.com/file/d/1Qe7GhhxtPKbS7owyBlVsgwDDgUBC7kbH/view?usp=sharing). -->
 
 You can reach out to me via email: yumo.xu [at] ed.ac.uk

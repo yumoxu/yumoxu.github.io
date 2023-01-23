@@ -41,7 +41,7 @@ a, table.table a {
 .profile {
   margin-left: 1rem;
   // margin-right: 0rem;
-  width: 100%;
+  width: 80%;
 
   .address {
     margin-bottom: 5px;
@@ -124,6 +124,7 @@ a, table.table a {
 .navbar-toggler {
   .icon-bar {
     display: block;
+    // width: 22px;
     width: 22px;
     height: 2px;
     background-color: var(--global-icon-color);
