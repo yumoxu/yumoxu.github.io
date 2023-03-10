@@ -9,7 +9,7 @@ description:
 
 profile:
   align: right
-  image: profile.jpeg
+  image: profile.jpg
 news: true  # includes a list of news items
 talk: true
 selected_papers: false # includes a list of papers marked as "selected={true}"
