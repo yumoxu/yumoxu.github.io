@@ -16,15 +16,16 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a Research Associate in Natural Language Processing at the University of Edinburgh. 
-My research interests include text summarization, question answering, and language generation. 
+I am an NLP scientist at [AWS AI Labs](https://www.amazon.science/) researching and building intelligent language services for enterprises. 
+
+My primary research focus has been on [summarization](https://era.ed.ac.uk/handle/1842/39624), the process of condensing a source text into a shorter version while preserving its salient information.
+My interests extend to other areas of AI/NLP such as controllable generation and scalable alignment.
+
+Prior to Amazon, 
+I received my PhD in NLP at [the University of Edinburgh](https://web.inf.ed.ac.uk/ilcc), advised by [Prof. Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/). 
+
 <!-- My long-term research goal is to evolve the machine to interact with people naturally and assist people effectively, 
 with minimal human guidance. -->
+<!-- My PhD thesis [Document Summarization with Neural Query Modeling](https://era.ed.ac.uk/handle/1842/39624) was examined by [Prof. Ivan Titov](http://ivan-titov.org/) and [Prof. Greg Durrett](https://www.cs.utexas.edu/~gdurrett/). -->
 
-<!-- I am fortunate to work closely with [Prof. Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/) who was also my PhD advisor.  -->
-<!-- with a thesis entitled [Document Summarization with Neural Query Modeling](https://era.ed.ac.uk/handle/1842/39624) -->
-I received my PhD degree at the University of Edinburgh in 2022, advised by [Prof. Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/). 
-My PhD thesis [Document Summarization with Neural Query Modeling](https://era.ed.ac.uk/handle/1842/39624) was examined by [Prof. Ivan Titov](http://ivan-titov.org/) and [Prof. Greg Durrett](https://www.cs.utexas.edu/~gdurrett/).
-<!-- You can find my resume [here](https://drive.google.com/file/d/1Qe7GhhxtPKbS7owyBlVsgwDDgUBC7kbH/view?usp=sharing). -->
-
-You can reach out to me via email: yumo.xu [at] ed.ac.uk
+<!-- You can reach out to me via email: yumo.xu [at] outlook.com -->
