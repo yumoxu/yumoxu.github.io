@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2022-09-27 15:11:00-0400
+date: 2022-12-16 15:11:00-0400
 inline: true
 ---
-Extractive labels for summarization are fundamentally flawed. Check [Oreo](https://arxiv.org/pdf/2209.12714.pdf) out. 
+My PhD thesis is now [available online](handle/1842/39624/XuY_2022.pdf?sequence=1&isAllowed=y). 
