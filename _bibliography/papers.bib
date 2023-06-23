@@ -1,8 +1,33 @@
 ---
 ---
+@article{zhao2023qfts,
+  title={QTSumm: A New Benchmark for Query-Focused Table Summarization}, 
+  author={Yilun Zhao, Zhenting Qi, Linyong Nan, Boyu Mi, Yixin Liu, Weijin Zou, Simeng Han, Xiangru Tang, Yumo Xu, Arman Cohan, Dragomir Radev},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2305.14303},
+  abstract="People primarily consult tables to conduct data analysis or answer specific questions. Text generation systems that can provide accurate table summaries tailored to users' information needs can facilitate more efficient access to relevant data insights. However, existing table-to-text generation studies primarily focus on converting tabular data into coherent statements, rather than addressing information-seeking purposes. In this paper, we define a new query-focused table summarization task, where text generation models have to perform human-like reasoning and analysis over the given table to generate a tailored summary, and we introduce a new benchmark named QTSumm for this task. QTSumm consists of 5,625 human-annotated query-summary pairs over 2,437 tables on diverse topics. Moreover, we investigate state-of-the-art models (i.e., text generation, table-to-text generation, and large language models) on the QTSumm dataset. Experimental results and manual analysis reveal that our benchmark presents significant challenges in table-to-text generation for future research.",
+  pdf = "https://arxiv.org/pdf/2305.14303.pdf",
+  track={Summarization},
+}
+
+@inproceedings{zhang2023kiqfs,
+    title={Tackling Query-Focused Summarization as A Knowledge-Intensive Task: A Pilot Study}, 
+    author = "Zhang Weijia , Svitlana Vakulenko, Thilina Rajapakse, Yumo Xu and Evangelos Kanoulas",
+    booktitle = "Gen-IR@SIGIR2023",
+    year = "2023",
+    address = "Taipei, Taiwan",
+    abstract="Query-focused summarization (QFS) requires generating a summary given a query using a set of relevant documents. However, such relevant documents should be annotated manually and thus are not readily available in realistic scenarios. To address this limitation, we tackle the QFS task as a knowledge-intensive (KI) task without access to any relevant documents. Instead, we assume that these documents are present in a large-scale knowledge corpus and should be retrieved first. To explore this new setting, we build a new dataset (KI-QFS) by adapting existing QFS datasets. In this dataset, answering the query requires document retrieval from a knowledge corpus. We construct three different knowledge corpora, and we further provide relevance annotations to enable retrieval evaluation. Finally, we benchmark the dataset with state-of-the- art QFS models and retrieval-enhanced models. The experimental results demonstrate that QFS models perform significantly worse on KI-QFS compared to the original QFS task, indicating that the knowledge-intensive setting is much more challenging and offers substantial room for improvement. We believe that our investigation will inspire further research into addressing QFS in more realistic scenarios.",
+    pdf = "https://coda.io/@sigir/gen-ir/accepted-papers-16",
+    code = "",
+    selected={true},
+    track={Summarization},
+}
+
+
 @inproceedings{daniel2023genx,
     title={Abstractive Summarizers are Excellent Extractive Summarizers}, 
-    author = "Varab, Daniel and Xu, Yumo",
+    author = "Daniel Varab and Yumo Xu",
     booktitle = "ACL",
     year = "2023",
     address = "Toronto, Canada",
@@ -15,7 +40,7 @@
 
 @inproceedings{xu2023oreo,
     title={Text Summarization with Oracle Expectation}, 
-    author = "Xu, Yumo  and Lapata, Mirella",
+    author = "Yumo Xu and Mirella Lapata",
     booktitle = "ICLR",
     year = "2023",
     address = "Online",
@@ -28,7 +53,7 @@
 
 @article{xu2022neural,
       title={Document Summarization with Neural Query Modeling}, 
-      author={Xu, Yumo},
+      author={Yumo Xu},
       year={2022},
       abstract="Document summarization is a natural language processing task that aims to produce a short summary that concisely delivers the most important information of a document or multiple documents. Over the last few decades, the task has drawn much attention from both academia and industry, as it provides effective tools to manage and access text information. For example, through a newswire summarization engine, users can quickly digest a cluster of news articles by reading a short summary of the topic. Such summaries can, meanwhile, be used by news recommendation and question answering engines. Depending on the users’ role in the summarization process, document summarization falls into two broad categories: generic summarization and query focused summarization (QFS). The former focuses on information intrinsically salient in the input text, while the latter also caters to requests explicitly specified by users. Despite the difference between generic summarization and QFS in their task formulations, we argue that all summaries address queries, even if they are not formulated explicitly. In this thesis, we introduce query modeling in the document summarization context as a critical objective for incorporating observed or latent user intent. We investigate different approaches that explore this theme with deep neural networks. We develop novel systems with neural query modeling for both extractive summarization, where summaries are composed of salient segments (e.g., sentences) from the original document(s), and abstractive summarization, where summaries are made up of words or phrases that do not exist in the input. The recent availability of large-scale datasets has driven the development of neural models that create generic summaries. However, training data in the form of queries, documents, and summaries for QFS is scarce. As most existing research in QFS has employed an extractive approach, we first consider better modeling query-cluster interactions for low-resource extractive QFS. In contrast to previous work with retrieval-style methods for assembling query-relevant summaries, we propose a framework that progressively estimates whether text segments should be included in the summary. Notably, modules of this framework can be independently developed and can leverage training data if available. We present an instantiation of this framework with distant supervision from question answering where various resources exist to identify segments which are likely to answer the query. Experiments on benchmark datasets show that our framework achieves competitive results and is robust across domains. Ideally, summaries should be abstracts, and the hidden costs incurred by annotating QA pairs should be avoided in query modeling. The second part of this thesis focuses on the low-resource challenge in abstractive QFS, and builds an abstractive QFS system which is trained query-free. Concretely, we propose to decompose the task into query modeling and conditional language modeling. For query modeling, we first introduce a uniﬁed representation for summaries and queries to exploit training resources in generic summarization, on top of which a weakly supervised model is optimized for evidence estimation. The proposed framework achieves state-of-the-art performance in generating query focused abstracts across existing benchmarks. Finally, the third part of this thesis moves beyond QFS. We provide a uniﬁed modeling framework for any kind of summarization, under the assumption that all summaries are a response to a query, which is observed in the case of QFS and latent in the case of generic summarization. We model queries as discrete latent variables over document tokens, and learn representations compatible with observed and unobserved query verbalizations. Requiring no further optimization on downstream summarization tasks, experiments show that our approach outperforms strong comparison systems across benchmarks, query types, document settings, and target domains.",
       pdf = "https://era.ed.ac.uk/bitstream/handle/1842/39624/XuY_2022.pdf?sequence=1&isAllowed=y",
@@ -40,7 +65,7 @@
 
 @article{xu2022doc,
       title={Document Summarization with Latent Queries}, 
-      author={Xu, Yumo  and Lapata, Mirella},
+      author="Yumo Xu and Mirella Lapata",
       journal={TACL},
       year={2022},
       volume={abs/2106.00104},
@@ -54,8 +79,7 @@
 
 @inproceedings{Xu2020AbstractiveQF,
     title = "Generating Query Focused Summaries with Query-Free Resources",
-    author = "Xu, Yumo  and
-      Lapata, Mirella",
+    author = "Yumo Xu and Mirella Lapata",
     booktitle = "ACL",
     month = aug,
     year = "2021",
@@ -83,8 +107,7 @@
 
 @inproceedings{xu-lapata-2020-coarse,
     title = "Coarse-to-Fine Query Focused Multi-Document Summarization",
-    author = "Xu, Yumo  and
-      Lapata, Mirella",
+    author = "Yumo Xu and Mirella Lapata",
     booktitle = "EMNLP",
     month = nov,
     year = "2020",
@@ -102,8 +125,7 @@
 
 @article{xu-lapata-2019-weakly,
     title = "Weakly Supervised Domain Detection",
-    author = "Xu, Yumo  and
-      Lapata, Mirella",
+    author = "Yumo Xu and Mirella Lapata",
     journal = "TACL",
     volume = "7",
     month = mar,
@@ -120,9 +142,7 @@
 
 @inproceedings{sherborne-etal-2020-bootstrapping,
     title = "Bootstrapping a Crosslingual Semantic Parser",
-    author = "Sherborne, Tom  and
-      Xu, Yumo  and
-      Lapata, Mirella",
+    author = "Tom Sherborne, Yumo Xu and Mirella Lapata",
     booktitle = "Findings of EMNLP",
     month = nov,
     year = "2020",
@@ -161,8 +181,7 @@
 
 @inproceedings{xu-cohen-2018-stock,
     title = "Stock Movement Prediction from Tweets and Historical Prices",
-    author = "Xu, Yumo  and
-      Cohen, Shay B.",
+    author = "Yumo Xu and Shay B. Cohen",
     booktitle = "ACL",
     month = jul,
     year = "2018",
