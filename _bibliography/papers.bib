@@ -1,29 +1,30 @@
 ---
 ---
+
 @article{zhao2023qfts,
-  title={QTSumm: A New Benchmark for Query-Focused Table Summarization}, 
-  author={Yilun Zhao, Zhenting Qi, Linyong Nan, Boyu Mi, Yixin Liu, Weijin Zou, Simeng Han, Xiangru Tang, Yumo Xu, Arman Cohan, Dragomir Radev},
-  journal={ArXiv},
-  year={2023},
-  volume={abs/2305.14303},
-  abstract="People primarily consult tables to conduct data analysis or answer specific questions. Text generation systems that can provide accurate table summaries tailored to users' information needs can facilitate more efficient access to relevant data insights. However, existing table-to-text generation studies primarily focus on converting tabular data into coherent statements, rather than addressing information-seeking purposes. In this paper, we define a new query-focused table summarization task, where text generation models have to perform human-like reasoning and analysis over the given table to generate a tailored summary, and we introduce a new benchmark named QTSumm for this task. QTSumm consists of 5,625 human-annotated query-summary pairs over 2,437 tables on diverse topics. Moreover, we investigate state-of-the-art models (i.e., text generation, table-to-text generation, and large language models) on the QTSumm dataset. Experimental results and manual analysis reveal that our benchmark presents significant challenges in table-to-text generation for future research.",
-  pdf = "https://arxiv.org/pdf/2305.14303.pdf",
+  title= "QTSumm: A New Benchmark for Query-Focused Table Summarization", 
+  author = "Yilun Zhao, Zhenting Qi, Linyong Nan, Boyu Mi, Yixin Liu, Weijin Zou, Simeng Han, Xiangru Tang, Yumo Xu, Arman Cohan, Dragomir Radev",
+  journal = "ArXiv",
+  year = "2023",
+  volume = "abs/2305.14303",
+  abstract = "People primarily consult tables to conduct data analysis or answer specific questions. Text generation systems that can provide accurate table summaries tailored to users' information needs can facilitate more efficient access to relevant data insights. However, existing table-to-text generation studies primarily focus on converting tabular data into coherent statements, rather than addressing information-seeking purposes. In this paper, we define a new query-focused table summarization task, where text generation models have to perform human-like reasoning and analysis over the given table to generate a tailored summary, and we introduce a new benchmark named QTSumm for this task. QTSumm consists of 5,625 human-annotated query-summary pairs over 2,437 tables on diverse topics. Moreover, we investigate state-of-the-art models (i.e., text generation, table-to-text generation, and large language models) on the QTSumm dataset. Experimental results and manual analysis reveal that our benchmark presents significant challenges in table-to-text generation for future research.",
+  pdf = "",
+  code = "",
+  selected={true},
   track={Summarization},
 }
 
 @inproceedings{zhang2023kiqfs,
-    title={Tackling Query-Focused Summarization as A Knowledge-Intensive Task: A Pilot Study}, 
+    title = "Tackling Query-Focused Summarization as A Knowledge-Intensive Task: A Pilot Study", 
     author = "Zhang Weijia , Svitlana Vakulenko, Thilina Rajapakse, Yumo Xu and Evangelos Kanoulas",
-    booktitle = "Gen-IR@SIGIR2023",
+    booktitle = "Gen-IR@SIGIR",
     year = "2023",
     address = "Taipei, Taiwan",
-    abstract="Query-focused summarization (QFS) requires generating a summary given a query using a set of relevant documents. However, such relevant documents should be annotated manually and thus are not readily available in realistic scenarios. To address this limitation, we tackle the QFS task as a knowledge-intensive (KI) task without access to any relevant documents. Instead, we assume that these documents are present in a large-scale knowledge corpus and should be retrieved first. To explore this new setting, we build a new dataset (KI-QFS) by adapting existing QFS datasets. In this dataset, answering the query requires document retrieval from a knowledge corpus. We construct three different knowledge corpora, and we further provide relevance annotations to enable retrieval evaluation. Finally, we benchmark the dataset with state-of-the- art QFS models and retrieval-enhanced models. The experimental results demonstrate that QFS models perform significantly worse on KI-QFS compared to the original QFS task, indicating that the knowledge-intensive setting is much more challenging and offers substantial room for improvement. We believe that our investigation will inspire further research into addressing QFS in more realistic scenarios.",
+    abstract = "Query-focused summarization (QFS) requires generating a summary given a query using a set of relevant documents. However, such relevant documents should be annotated manually and thus are not readily available in realistic scenarios. To address this limitation, we tackle the QFS task as a knowledge-intensive (KI) task without access to any relevant documents. Instead, we assume that these documents are present in a large-scale knowledge corpus and should be retrieved first. To explore this new setting, we build a new dataset (KI-QFS) by adapting existing QFS datasets. In this dataset, answering the query requires document retrieval from a knowledge corpus. We construct three different knowledge corpora, and we further provide relevance annotations to enable retrieval evaluation. Finally, we benchmark the dataset with state-of-the- art QFS models and retrieval-enhanced models. The experimental results demonstrate that QFS models perform significantly worse on KI-QFS compared to the original QFS task, indicating that the knowledge-intensive setting is much more challenging and offers substantial room for improvement. We believe that our investigation will inspire further research into addressing QFS in more realistic scenarios.",
     pdf = "https://coda.io/@sigir/gen-ir/accepted-papers-16",
     code = "",
-    selected={true},
     track={Summarization},
 }
-
 
 @inproceedings{daniel2023genx,
     title={Abstractive Summarizers are Excellent Extractive Summarizers}, 
