@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2023-05-1 15:11:00-0400
+date: 2023-04-17 20:11:00-0400
 inline: true
 ---
-Generative modeling for eXtractive summarization (GenX) was accepted by ACL'23. 
+Excited to join [AWS AI Labs](https://www.amazon.science/) in Seattle as a scientist. 

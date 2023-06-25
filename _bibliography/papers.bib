@@ -10,7 +10,6 @@
   abstract = "People primarily consult tables to conduct data analysis or answer specific questions. Text generation systems that can provide accurate table summaries tailored to users' information needs can facilitate more efficient access to relevant data insights. However, existing table-to-text generation studies primarily focus on converting tabular data into coherent statements, rather than addressing information-seeking purposes. In this paper, we define a new query-focused table summarization task, where text generation models have to perform human-like reasoning and analysis over the given table to generate a tailored summary, and we introduce a new benchmark named QTSumm for this task. QTSumm consists of 5,625 human-annotated query-summary pairs over 2,437 tables on diverse topics. Moreover, we investigate state-of-the-art models (i.e., text generation, table-to-text generation, and large language models) on the QTSumm dataset. Experimental results and manual analysis reveal that our benchmark presents significant challenges in table-to-text generation for future research.",
   pdf = "",
   code = "",
-  selected={true},
   track={Summarization},
 }
 
@@ -58,7 +57,6 @@
       year={2022},
       abstract="Document summarization is a natural language processing task that aims to produce a short summary that concisely delivers the most important information of a document or multiple documents. Over the last few decades, the task has drawn much attention from both academia and industry, as it provides effective tools to manage and access text information. For example, through a newswire summarization engine, users can quickly digest a cluster of news articles by reading a short summary of the topic. Such summaries can, meanwhile, be used by news recommendation and question answering engines. Depending on the users’ role in the summarization process, document summarization falls into two broad categories: generic summarization and query focused summarization (QFS). The former focuses on information intrinsically salient in the input text, while the latter also caters to requests explicitly specified by users. Despite the difference between generic summarization and QFS in their task formulations, we argue that all summaries address queries, even if they are not formulated explicitly. In this thesis, we introduce query modeling in the document summarization context as a critical objective for incorporating observed or latent user intent. We investigate different approaches that explore this theme with deep neural networks. We develop novel systems with neural query modeling for both extractive summarization, where summaries are composed of salient segments (e.g., sentences) from the original document(s), and abstractive summarization, where summaries are made up of words or phrases that do not exist in the input. The recent availability of large-scale datasets has driven the development of neural models that create generic summaries. However, training data in the form of queries, documents, and summaries for QFS is scarce. As most existing research in QFS has employed an extractive approach, we first consider better modeling query-cluster interactions for low-resource extractive QFS. In contrast to previous work with retrieval-style methods for assembling query-relevant summaries, we propose a framework that progressively estimates whether text segments should be included in the summary. Notably, modules of this framework can be independently developed and can leverage training data if available. We present an instantiation of this framework with distant supervision from question answering where various resources exist to identify segments which are likely to answer the query. Experiments on benchmark datasets show that our framework achieves competitive results and is robust across domains. Ideally, summaries should be abstracts, and the hidden costs incurred by annotating QA pairs should be avoided in query modeling. The second part of this thesis focuses on the low-resource challenge in abstractive QFS, and builds an abstractive QFS system which is trained query-free. Concretely, we propose to decompose the task into query modeling and conditional language modeling. For query modeling, we first introduce a uniﬁed representation for summaries and queries to exploit training resources in generic summarization, on top of which a weakly supervised model is optimized for evidence estimation. The proposed framework achieves state-of-the-art performance in generating query focused abstracts across existing benchmarks. Finally, the third part of this thesis moves beyond QFS. We provide a uniﬁed modeling framework for any kind of summarization, under the assumption that all summaries are a response to a query, which is observed in the case of QFS and latent in the case of generic summarization. We model queries as discrete latent variables over document tokens, and learn representations compatible with observed and unobserved query verbalizations. Requiring no further optimization on downstream summarization tasks, experiments show that our approach outperforms strong comparison systems across benchmarks, query types, document settings, and target domains.",
       pdf = "https://era.ed.ac.uk/bitstream/handle/1842/39624/XuY_2022.pdf?sequence=1&isAllowed=y",
-      selected={true},
       track={Summarization},
       publisher={The University of Edinburgh}
 }
@@ -90,19 +88,7 @@
     abstract="The availability of large-scale datasets has driven the development of neural sequence-to-sequence models to generate generic summaries, i.e., summaries which do not correspond to any pre-specified queries. However, due to the lack of training data, query focused summarization (QFS) has been studied mainly with extractive methods. In this work, we consider the problem of leveraging only generic summarization resources to build an abstractive QFS system. We propose Marge, a Masked ROUGE Regression framework composed of a novel unified representation for summaries and queries, and a distantly supervised training task for answer evidence estimation. To further utilize generic data for generation, three attributes are incorporated during training and inference to control the shape of the final summary: evidence rank, query guidance, and summary length. Despite learning from minimal supervision, our system achieves state-of-the-art results in the distantly supervised setting across domains and query types.",
     pdf = "https://aclanthology.org/2021.acl-long.475.pdf",
     code = "https://github.com/yumoxu/marge",
-    selected={true},
     track={Summarization},
-}
-
-@article{Xu2020MetaDP,
-  title={Meta Dialogue Policy Learning},
-  author={Yumo Xu and Chenguang Zhu and Baolin Peng and Michael Zeng},
-  journal={ArXiv},
-  year={2020},
-  volume={abs/2006.02588},
-  abstract = "Dialog policy determines the next-step actions for agents and hence is central to a dialogue system. However, when migrated to novel domains with little data, a policy model can fail to adapt due to insufficient interactions with the new environment. We propose Deep Transferable Q-Network (DTQN) to utilize shareable low-level signals between domains, such as dialogue acts and slots. We decompose the state and action representation space into feature subspaces corresponding to these low-level components to facilitate cross-domain knowledge transfer. Furthermore, we embed DTQN in a meta-learning framework and introduce Meta-DTQN with a dual-replay mechanism to enable effective off-policy training and adaptation. In experiments, our model outperforms baseline models in terms of both success rate and dialogue efficiency on the multi-domain dialogue dataset MultiWOZ 2.0.",
-  pdf = "https://arxiv.org/pdf/2006.02588.pdf",
-  track={Dialog},
 }
 
 
@@ -120,9 +106,22 @@
     abstract = "We consider the problem of better modeling query-cluster interactions to facilitate query focused multi-document summarization. Due to the lack of training data, existing work relies heavily on retrieval-style methods for assembling query relevant summaries. We propose a coarse-to-fine modeling framework which employs progressively more accurate modules for estimating whether text segments are relevant, likely to contain an answer, and central. The modules can be independently developed and leverage training data if available. We present an instantiation of this framework with a trained evidence estimator which relies on distant supervision from question answering (where various resources exist) to identify segments which are likely to answer the query and should be included in the summary. Our framework is robust across domains and query types (i.e., long vs short) and outperforms strong comparison systems on benchmark datasets.",
     pdf = "https://www.aclweb.org/anthology/2020.emnlp-main.296.pdf",
     code = "https://github.com/yumoxu/querysum",
-    selected={true},
     track={Summarization},
 }
+
+
+@article{Xu2020MetaDP,
+  title={Meta Dialogue Policy Learning},
+  author={Yumo Xu and Chenguang Zhu and Baolin Peng and Michael Zeng},
+  journal={ArXiv},
+  year={2020},
+  volume={abs/2006.02588},
+  abstract = "Dialog policy determines the next-step actions for agents and hence is central to a dialogue system. However, when migrated to novel domains with little data, a policy model can fail to adapt due to insufficient interactions with the new environment. We propose Deep Transferable Q-Network (DTQN) to utilize shareable low-level signals between domains, such as dialogue acts and slots. We decompose the state and action representation space into feature subspaces corresponding to these low-level components to facilitate cross-domain knowledge transfer. Furthermore, we embed DTQN in a meta-learning framework and introduce Meta-DTQN with a dual-replay mechanism to enable effective off-policy training and adaptation. In experiments, our model outperforms baseline models in terms of both success rate and dialogue efficiency on the multi-domain dialogue dataset MultiWOZ 2.0.",
+  pdf = "https://arxiv.org/pdf/2006.02588.pdf",
+  track={Dialog},
+}
+
+
 
 @article{xu-lapata-2019-weakly,
     title = "Weakly Supervised Domain Detection",

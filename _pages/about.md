@@ -11,8 +11,8 @@ profile:
   align: right
   image: profile.jpg
 news: true  # includes a list of news items
-talk: true
-selected_papers: false # includes a list of papers marked as "selected={true}"
+talk: false
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
