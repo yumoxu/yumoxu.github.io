@@ -96,7 +96,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 3
+news_limit: 5
 talk_limit: 10
 
 # -----------------------------------------------------------------------------
