@@ -112,7 +112,8 @@ a, table.table a {
   .contact-icon {
     font-size: 2rem;
     a {
-      color: white;
+      // color: white;
+      color: var(--global-icon-color);
       &:hover {
         color: var(--global-hover-color);
         // color: white;
@@ -177,11 +178,11 @@ a, table.table a {
   .contact-icon {
     font-size: 2.5rem;
     a {
-      // color: var(--global-icon-color);
-      color: white;
+      color: var(--global-icon-color);
+      // color: white;
       &:hover {
-        // color: var(--global-theme-color);
-        color: white;
+        color: var(--global-theme-color);
+        // color: white;
       }
     }
   }
@@ -361,7 +362,7 @@ footer.sticky-bottom {
 
         summarization {
           display: inline-block;
-          background-color: rgb(255, 92, 52);
+          background-color: rgb(0, 65, 106);
           padding-left: 1rem;
           padding-right: 1rem;
           a {
@@ -374,7 +375,7 @@ footer.sticky-bottom {
 
         dial {
           display: inline-block;
-          background-color: rgb(0, 0, 0);
+          background-color: rgb(47, 79, 79);
           padding-left: 1rem;
           padding-right: 1rem;
           a {
@@ -387,7 +388,7 @@ footer.sticky-bottom {
 
         general {
           display: inline-block;
-          background-color: rgb(66, 133, 244);
+          background-color: rgb(35, 35, 35);
           padding-left: 2rem;
           padding-right: 2rem;
           a {
