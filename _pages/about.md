@@ -28,7 +28,7 @@ My interests extend to other areas of AI/NLP such as controllable generation and
 
 Prior to Amazon, 
 I received my PhD in NLP at [the University of Edinburgh](https://web.inf.ed.ac.uk/ilcc), advised by [Prof. Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/). 
-My PhD research topic was on [text summarization](https://era.ed.ac.uk/handle/1842/39624), the process of condensing a source text into a shorter version while preserving its salient information.
+My PhD research was on [text summarization](https://era.ed.ac.uk/handle/1842/39624), the process of condensing a source text into a shorter version while preserving its salient information.
 
 <!-- My long-term research goal is to evolve the machine to interact with people naturally and assist people effectively, 
 with minimal human guidance. -->
