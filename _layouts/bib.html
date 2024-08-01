@@ -4,6 +4,15 @@
 <div class="row">
   <div class="col-sm-2 track">
   {% if entry.track %}
+    {% if entry.track == "Instruction Following" %}
+    <instruction class="badge">{{entry.track}}</instruction>
+    {% endif %}
+
+    {% if entry.track == "RAG" %}
+    <rag class="badge">{{entry.track}}</rag>
+    {% endif %}
+
+
     {% if entry.track == "Summarization" %}
     <summarization class="badge">{{entry.track}}</summarization>
     {% endif %}

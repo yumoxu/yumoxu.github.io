@@ -373,6 +373,32 @@ footer.sticky-bottom {
           }
         }
 
+        instruction {
+          display: inline-block;
+          background-color: rgb(101, 0, 174);
+          padding-left: 1rem;
+          padding-right: 1rem;
+          a {
+            color: white;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+
+        rag {
+          display: inline-block;
+          background-color: rgb(174, 0, 75);
+          padding-left: 1rem;
+          padding-right: 1rem;
+          a {
+            color: white;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+
         dial {
           display: inline-block;
           background-color: rgb(47, 79, 79);
