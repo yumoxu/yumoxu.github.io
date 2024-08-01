@@ -8,7 +8,8 @@
     volume={abs/2407.21417},
     abstract = "Modern language models (LMs) need to follow human instructions while being faithful; yet, they often fail to achieve both. Here, we provide concrete evidence of a trade-off between instruction following (i.e., follow open-ended instructions) and faithfulness (i.e., ground responses in given context) when training LMs with these objectives. For instance, fine-tuning LLaMA-7B on instruction following datasets renders it less faithful. Conversely, instruction-tuned Vicuna-7B shows degraded performance at following instructions when further optimized on tasks that require contextual grounding. One common remedy is multi-task learning (MTL) with data mixing, yet it remains far from achieving a synergic outcome. We propose a simple yet effective method that relies on Rejection Sampling for Continued Self-instruction Tuning (ReSet), which significantly outperforms vanilla MTL. Surprisingly, we find that less is more, as training ReSet with high-quality, yet substantially smaller data (three-fold less) yields superior results. Our findings offer a better understanding of objective discrepancies in alignment training of LMs.",
     pdf = "https://arxiv.org/abs/2407.21417",
-    track={Instruction Following},
+    track={LLM},
+    selected={true},
 }
 
 @article{han2024ragqaarena,
@@ -17,9 +18,10 @@
     journal={ArXiv},
     year={2024},
     volume={abs/2407.13998},
-    abstract = "Question answering based on retrieval augmented generation (RAG-QA) is an important research topic in NLP and has a wide range of real-world applications. However, most existing datasets for this task are either constructed using a single source corpus or consist of short extractive answers, which fall short of evaluating large language model (LLM) based RAG-QA systems on cross-domain generalization. To address these limitations, we create Long-form RobustQA (LFRQA), a new dataset comprising human-written long-form answers that integrate short extractive answers from multiple documents into a single, coherent narrative, covering 26K queries and large corpora across seven different domains. We further propose RAG-QA Arena by directly comparing model-generated answers against LFRQA's answers using LLMs as evaluators. We show via extensive experiments that RAG-QA Arena and human judgments on answer quality are highly correlated. Moreover, only 41.3% of the most competitive LLM's answers are preferred to LFRQA's answers, demonstrating RAG-QA Arena as a challenging evaluation platform for future research.",
+    abstract = "Question answering based on retrieval augmented generation (RAG-QA) is an important research topic in NLP and has a wide range of real-world applications. However, most existing datasets for this task are either constructed using a single source corpus or consist of short extractive answers, which fall short of evaluating large language model (LLM) based RAG-QA systems on cross-domain generalization. To address these limitations, we create Long-form RobustQA (LFRQA), a new dataset comprising human-written long-form answers that integrate short extractive answers from multiple documents into a single, coherent narrative, covering 26K queries and large corpora across seven different domains. We further propose RAG-QA Arena by directly comparing model-generated answers against LFRQA's answers using LLMs as evaluators. We show via extensive experiments that RAG-QA Arena and human judgments on answer quality are highly correlated. Moreover, only 41.3\% of the most competitive LLM's answers are preferred to LFRQA's answers, demonstrating RAG-QA Arena as a challenging evaluation platform for future research.",
     pdf = "https://arxiv.org/pdf/2407.13998.pdf",
     track={RAG},
+    selected={true},
 }
 
 @inproceedings{zhang2024infuse,
@@ -27,11 +29,10 @@
     author = "Huajian Zhang, Yumo Xu and Laura Perez-Beltrachini",
     booktitle = "EACL",
     year = "2024",
-    address = "St. Julian's, Malta",
+    address = "St. Julian\'s, Malta",
     abstract = "We study existing approaches to leverage off-the-shelf Natural Language Inference (NLI) models for the evaluation of summary faithfulness and argue that these are sub-optimal due to the granularity level considered for premises and hypotheses. That is, the smaller content unit considered as hypothesis is a sentence and premises are made up of a fixed number of document sentences. We propose a novel approach, namely INFUSE, that uses a variable premise size and simplifies summary sentences into shorter hypotheses. Departing from previous studies which focus on single short document summarisation, we analyse NLI based faithfulness evaluation for diverse summarisation tasks. We introduce DiverSumm, a new benchmark comprising long form summarisation (long documents and summaries) and diverse summarisation tasks (e.g., meeting and multi-document summarisation). In experiments, INFUSE obtains superior performance across the different summarisation tasks.",
     pdf = "https://aclanthology.org/2024.eacl-long.102.pdf",
     code = "",
-    selected={true},
     track={Summarization},
 }
 
@@ -69,7 +70,6 @@
     abstract="Extractive and abstractive summarization designs have historically been fragmented, limiting the benefits that often arise from compatible model architectures. In this paper, we explore the potential synergies of modeling extractive summarization with an abstractive summarization system and propose three novel inference algorithms using the sequence-to-sequence architecture. We evaluate them on the CNN \& Dailymail dataset and show that recent advancements in abstractive system designs enable abstractive systems to not only compete, but even surpass the performance of extractive systems with custom architectures. To our surprise, abstractive systems achieve this without being exposed to extractive oracle summaries and, therefore, for the first time allow a single model to produce both abstractive and extractive summaries. This evidence questions our fundamental understanding of extractive system design, and the necessity for extractive labels while pathing the way for promising research directions in hybrid models.",
     pdf = "",
     code = "",
-    selected={true},
     track={Summarization},
 }
 
