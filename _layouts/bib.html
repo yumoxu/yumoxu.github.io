@@ -4,12 +4,12 @@
 <div class="row">
   <div class="col-sm-2 track">
   {% if entry.track %}
-    {% if entry.track == "LLM" %}
-    <llm class="badge">LLM</llm>
+    {% if entry.track == "LLM-SFT" %}
+    <sft class="badge">LLM - SFT</llm>
     {% endif %}
 
-    {% if entry.track == "RAG" %}
-    <rag class="badge">{{entry.track}}</rag>
+    {% if entry.track == "LLM-RAG" %}
+    <rag class="badge">LLM - RAG</rag>
     {% endif %}
 
     {% if entry.track == "Summarization" %}
