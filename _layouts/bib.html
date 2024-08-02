@@ -5,7 +5,7 @@
   <div class="col-sm-2 track">
   {% if entry.track %}
     {% if entry.track == "LLM-SFT" %}
-    <sft class="badge">LLM - SFT</llm>
+    <sft class="badge">LLM - SFT</sft>
     {% endif %}
 
     {% if entry.track == "LLM-RAG" %}
@@ -16,7 +16,7 @@
     <summarization class="badge">{{entry.track}}</summarization>
     {% endif %}
 
-    {% if entry.track contains "Dialog" %}
+    {% if entry.track contains "Conversation" %}
     <dial class="badge">{{entry.track}}</dial>
     {% endif %}
 
