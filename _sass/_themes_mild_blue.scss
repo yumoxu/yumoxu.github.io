@@ -4,13 +4,13 @@
 
 :root {
   --global-bg-color: #{$white-color};
-  --global-text-color: rgb(10,17,20);
-  --global-theme-color: rgb(65,117,236);
-  --global-hover-color: rgb(65,117,236);
-  --global-footer-bg-color: rgb(33, 37, 40);
+  --global-text-color: #{$black-color};
+  --global-theme-color: rgb(0, 123, 174);
+  --global-hover-color: rgb(0, 123, 174);
+  --global-footer-bg-color: rgb(35, 35, 35);
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
-  --global-icon-color: rgb(65,117,236);
+  --global-icon-color: rgb(0, 123, 174);
 
   .fa-sun {
     display : none;

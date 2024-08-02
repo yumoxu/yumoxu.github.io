@@ -362,7 +362,7 @@ footer.sticky-bottom {
 
         summarization {
           display: inline-block;
-          background-color: rgb(35, 35, 35);
+          background-color: rgb(1, 1, 1);
           padding-left: 1rem;
           padding-right: 1rem;
           a {
@@ -375,7 +375,7 @@ footer.sticky-bottom {
 
         sft {
           display: inline-block;
-          background-color: rgb(174, 78, 0);
+          background-color: rgb(255,129,0);
           padding-left: 1.8rem;
           padding-right: 1.8rem;
           a {
@@ -388,7 +388,7 @@ footer.sticky-bottom {
 
         rag {
           display: inline-block;
-          background-color: rgb(174, 0, 75);
+          background-color: rgb(214,0,91);
           padding-left: 1.8rem;
           padding-right: 1.8rem;
           a {
@@ -401,11 +401,11 @@ footer.sticky-bottom {
 
         dial {
           display: inline-block;
-          background-color: rgb(47, 79, 79);
-          padding-left: 1rem;
-          padding-right: 1rem;
+          background-color: rgb(0, 132, 205);
+          padding-left: 1.4rem;
+          padding-right: 1.4rem;
           a {
-            color: white;
+            color: rgb(255, 255, 255);
             &:hover {
               text-decoration: none;
             }
@@ -414,11 +414,11 @@ footer.sticky-bottom {
 
         general {
           display: inline-block;
-          background-color: rgb(0, 123, 174);
+          background-color: rgb(1, 1, 1);
           padding-left: 1.8rem;
           padding-right: 1.8rem;
           a {
-            color: white;
+            color: rgb(255, 255, 255);
             &:hover {
               text-decoration: none;
             }
