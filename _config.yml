@@ -144,8 +144,8 @@ plugins:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Xu
+  first_name: Yumo
 
   style: apa
   locale: en
