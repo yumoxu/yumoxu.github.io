@@ -4,6 +4,10 @@
 <div class="row">
   <div class="col-sm-2 track">
   {% if entry.track %}
+    {% if entry.track == "Trustworthy-AI" %}
+    <trustworthy class="badge">Trustworthy AI</trustworthy>
+    {% endif %}
+
     {% if entry.track == "LLM-SFT" %}
     <sft class="badge">LLM - SFT</sft>
     {% endif %}

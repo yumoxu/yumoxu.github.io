@@ -373,6 +373,19 @@ footer.sticky-bottom {
           }
         }
 
+        trustworthy {
+          display: inline-block;
+          background-color: rgb(15,157,88);
+          padding-left: 1.8rem;
+          padding-right: 1.8rem;
+          a {
+            color: white;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+
         sft {
           display: inline-block;
           background-color: rgb(255,129,0);
