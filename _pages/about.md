@@ -9,7 +9,7 @@ description:
 
 profile:
   align: right
-  image: trail.jpg
+  image: profile.jpg
 news: true # includes a list of news items
 talk: false
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -34,5 +34,3 @@ My PhD research was on [text summarization](https://era.ed.ac.uk/handle/1842/396
 <!-- My long-term research goal is to evolve the machine to interact with people naturally and assist people effectively,
 with minimal human guidance. -->
 <!-- My PhD thesis [Document Summarization with Neural Query Modeling](https://era.ed.ac.uk/handle/1842/39624) was examined by [Prof. Ivan Titov](http://ivan-titov.org/) and [Prof. Greg Durrett](https://www.cs.utexas.edu/~gdurrett/). -->
-
-<!-- You can reach out to me via email: yumo.xu [at] outlook.com -->
