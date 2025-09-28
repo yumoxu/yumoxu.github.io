@@ -6,7 +6,7 @@ description: Publications by categories in reversed chronological order.
 # <u>SLU (Speech Language Understanding)</u>  and <u>DPL (Dialogue Policy Learning</u> are two modules of a dialogue system.
 
 years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018]
-nav: true
+nav: false
 ---
 
 <div class="publications">

@@ -4,30 +4,17 @@
 <div class="row">
   <div class="col-sm-2 track">
   {% if entry.track %}
-    {% if entry.track == "Trustworthy-AI" %}
-    <trustworthy class="badge">Trustworthy AI</trustworthy>
-    {% endif %}
-
-    {% if entry.track == "LLM-SFT" %}
-    <sft class="badge">LLM - SFT</sft>
-    {% endif %}
-
-    {% if entry.track == "LLM-RAG" %}
-    <rag class="badge">LLM - RAG</rag>
-    {% endif %}
-
-    {% if entry.track == "Summarization" %}
+    {% if entry.track == "Evaluation" %}
+    <evaluation class="badge">Evaluation</evaluation>
+    {% elsif entry.track == "Post-training" %}
+    <post-training class="badge">Post-training</post-training>
+    {% elsif entry.track == "Summarization" %}
     <summarization class="badge">{{entry.track}}</summarization>
-    {% endif %}
-
-    {% if entry.track contains "Conversation" %}
+    {% elsif entry.track contains "Conversation" %}
     <dial class="badge">{{entry.track}}</dial>
-    {% endif %}
-
-    {% if entry.track == "Application" %}
+    {% elsif entry.track == "Application" %}
     <general class="badge">{{entry.track}}</general>
     {% endif %}
-
   {% endif %}
   </div>
 

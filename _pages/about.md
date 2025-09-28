@@ -16,21 +16,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a scientist at [AWS AI Labs](https://www.amazon.science/) researching and building intelligent language services for enterprises.
+I am a senior scientist at [AWS AI Labs](https://www.amazon.science/).
+My overarching research goal is to build helpful and responsible AI systems to improve how people access information and take actions.
+My research centers on post-training foundation models to instill advanced reasoning and improve alignment. I am also interested in extending these capabilities to multi-modal domains and creating evaluations that meaningfully reflect their real-world utility.
 
-My current interests lie in the following areas:
-
-- Effective Retrieval-Augmented Generation (RAG) systems,
-- Accurate faithfulness evaluation and source attribution, and
-- Reliable autonomous agents with generalizable tool-use capabilities.
-
-<!-- My primary research focus has been on [summarization](https://era.ed.ac.uk/handle/1842/39624), the process of condensing a source text into a shorter version while preserving its salient information.
-My interests extend to other areas of AI/NLP such as controllable generation and scalable alignment. -->
-
-Prior to Amazon,
-I received my PhD in NLP at [the University of Edinburgh](https://web.inf.ed.ac.uk/ilcc), advised by [Prof. Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/).
-My PhD research was on [text summarization](https://era.ed.ac.uk/handle/1842/39624), the process of condensing a source text into a shorter version while preserving its salient information.
-
-<!-- My long-term research goal is to evolve the machine to interact with people naturally and assist people effectively,
-with minimal human guidance. -->
-<!-- My PhD thesis [Document Summarization with Neural Query Modeling](https://era.ed.ac.uk/handle/1842/39624) was examined by [Prof. Ivan Titov](http://ivan-titov.org/) and [Prof. Greg Durrett](https://www.cs.utexas.edu/~gdurrett/). -->
+Prior to AWS,
+I received my PhD in NLP at [the University of Edinburgh](https://web.inf.ed.ac.uk/ilcc), advised by [Prof. Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/). My Vitae can be found [here](https://drive.google.com/file/d/1Qe7GhhxtPKbS7owyBlVsgwDDgUBC7kbH/view?usp=sharing).
